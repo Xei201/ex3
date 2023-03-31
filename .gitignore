@@ -1,0 +1,6 @@
+/venv/
+/.idea/
+/ex3/deploy/
+/ex3/ex3/settings.ini
+/ex3/billing/migrations/
+/ex3/db.sqlite3
