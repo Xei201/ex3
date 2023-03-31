@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+  <title>Payment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Payment</title>
 </head>
-<body>
-  <h1 style="text-align:center;">Платежи</h1><br>
 
-  <table class="table">
+<body>
+  <h1 style="text-align:center">Платежи</h1><br>
+
+  <table class="container">
   <thead>
     <tr>
       <th scope="col">Платёж</th>
@@ -20,6 +22,7 @@
       <th scope="col">Месяц долга</th>
     </tr>
   </thead>
+
   <tbody>
     {% for payment in payments %}
       <tr>
