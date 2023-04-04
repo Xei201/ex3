@@ -15,6 +15,7 @@ class Payment(models.Model):
     accrual = models.ForeignKey(
         Accrual,
         on_delete=models.SET_NULL,
+        blank=True,
         default=None,
         null=True
     )
